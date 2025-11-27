@@ -87,12 +87,6 @@ Interestingly, CNNs can appear locally sharp (in Hessian spectral terms) but glo
 
 Dominant eigenvalues for MLPs generally **fall** as width increases.
 CNNs, however, sometimes show **larger local curvature**, but their global geometry is much smoother.
-
-This reconciles conflicting ideas in the literature:
-
-* “Flat minima generalize better” (Hochreiter & Schmidhuber, 1997)
-* “Sharp minima can also generalize” (Dinh et al., 2017)
-
 CNNs demonstrate that local sharpness and global flatness can coexist.
 
 ---
@@ -251,14 +245,3 @@ This study establishes a coherent understanding of how architecture and optimiza
    Hessian values alone cannot capture global basin width or connectivity.
 
 This integration of curvature analysis, trajectory geometry, and optimizer dynamics provides a rigorous empirical basis for understanding deep learning optimization.
-
----
-
-## **7. References**
-
-* Jacot et al., *Neural Tangent Kernel*, NeurIPS 2018
-* Goodfellow et al., *Deep Learning*, MIT Press
-* Kawaguchi, *Deep Learning Without Poor Local Minima*, NeurIPS 2017
-* Li et al., *Visualizing the Loss Landscape of Neural Nets*, NeurIPS 2018
-
----
